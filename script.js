@@ -20,7 +20,7 @@ class Calculator {
         this.currentOperand = this.currentOperand.toString() + number
     }
     
-
+    //checks for opperations 
     chooseOperation(operation){
         if(this.currentOperand === '') return
         if (this.previousOperand !== ''){
